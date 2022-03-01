@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap');
+
+body {
+	line-height: 1.5;
+	text-align: justify;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif ;
+	margin : 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif ;
+	text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 35px;
+    text-align: center;
+}
+
+nav {
+   background-color: #7903a6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+header {
+	display: inline;
+}
+
+.container {
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.container p {
+	margin-bottom: 15px;
+}
+
+.featured-image {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   object-position: center;
+}
+
+.right-content {
+	width: 300px;
+	float: right;
+	margin-left: 10px ;
+}
+
+.left-content {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #9a03a7;
+   text-align: center;
+   color: white;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 40px;
+   margin-top: 20px;
+}
+
+.clear {
+	clear : both ;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+.profile img {
+	width: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+	#content,
+	aside {
+		width: 100%;
+		padding: 0px;
+	}
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #7903a6;
+   text-align: center;
+   font-weight: bold;
+}
